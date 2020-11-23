@@ -1,0 +1,11 @@
+<h3><%= title%></h3>
+
+<form action="/note" method="POST" autocomplete="off">
+    <input type="hidden" name="_id">
+    <div class="form-group">
+        <input type="text" class="form-control" name="note" placeholder="Create Note" required>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-check"></i> Submit</button>
+    </div>
+</form>
